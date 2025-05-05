@@ -1,54 +1,50 @@
-# React + TypeScript + Vite
+# 🪗 Frontend Mentor - FAQ Accordion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Preview](./preview.jpg)
 
-Currently, two official plugins are available:
+## 📑 Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#-overview)
+  - [The Challenge](#-the-challenge)
+  - [Links](#-links)
+- [My Process](#-my-process)
+  - [Built With](#-built-with)
+  - [What I Learned](#-what-i-learned)
+- [Author](#-author)
 
-## Expanding the ESLint configuration
+## 📌 Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### The Challenge
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+The goal was to create a FAQ accordion card with a mobile-first design, ensuring responsiveness across devices, while adhering to best coding practices and achieving a clean, modern aesthetic.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Screenshot
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+![Screenshot](./screenshot.jpg)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### Links
+
+- **Solution URL**: [GitHub Repository](https://github.com/pedrogl1990/faq-accordion)
+- **Live Site URL**: [View Live](https://pedrogl1990.github.io/faq-accordion/)
+
+## 🛠️ My Process
+
+### Built With
+
+- Semantic HTML5 markup
+- Mobile-first workflow
+- [React](https://reactjs.org/) – JS library
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
+
+### What I Learned
+
+This project helped me reinforce my front-end skills in the following areas:
+
+- Building a mobile-first page following best practices
+- Improving my proficiency with React and Tailwind CSS
+
+## 🙋 Author - Pedro Leite
+
+- [Website](https://pedroleite.pt/)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/pedrogl1990)
+- [LinkedIn](https://www.linkedin.com/in/pedro-guedes-leite/)

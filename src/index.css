@@ -21,12 +21,15 @@
 
 @layer utilities {
   .title {
+    @apply font-work-sans font-semibold text-3xl;
   }
 
-  .accordion-subtitles {
+  .accordion-question {
+    @apply font-semibold text-purple-950 font-work-sans;
   }
 
   .faq-response {
+    @apply text-purple-600 text-sm font-work-sans;
   }
 }
 
