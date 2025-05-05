@@ -35,6 +35,7 @@ The goal was to create a FAQ accordion card with a mobile-first design, ensuring
 - Mobile-first workflow
 - [React](https://reactjs.org/) – JS library
 - [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
+- Typescript
 
 ### What I Learned
 
